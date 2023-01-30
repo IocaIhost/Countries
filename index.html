@@ -26,7 +26,21 @@
             </button>
         </div>
     </header>
-    <main></main>
+    <main class="main-content">
+        <div class="container">
+            <form action="https://echo.htmlacademy.ru" class="filters" method="get">
+                <input class="search-input" type="search" name="search" placeholder="Search for country" aria-label="Country name" required>
+                <select class="region-select" name="region" aria-label="Choose for region">
+                    <option selected disabled> Filter by region</option>
+                    <option>Africa</option>
+                    <option>America</option>
+                    <option>Asia</option>
+                    <option>Europe</option>
+                    <option>Oceania</option>
+                </select>
+            </form>
+        </div>
+    </main>
     <footer></footer>
 
     <!-- JS -->
